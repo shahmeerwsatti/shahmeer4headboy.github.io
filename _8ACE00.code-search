@@ -1,0 +1,29 @@
+# Query: #8ACE00
+# ContextLines: 1
+
+6 results - 1 file
+
+C:\Users\shahm\OneDrive\Documents\HeadboyAS\githubsite\index.html:
+   92  body {
+   93:     background-color: #1E1A34;
+   94      font-family: "Arial Narrow", Arial, sans-serif;
+
+  115  header {
+  116:     background-color: #1E1A34;
+  117      padding: 20px 0;
+
+  126  nav {
+  127:     background-color: #1E1A34;
+  128      padding: 15px;
+
+  148  button {
+  149:     background-color: #1E1A34;
+  150      border: none;
+
+  181  footer {
+  182:     background-color: #1E1A34;
+  183      color: #39FF14;
+
+  234  section.portfolio ul li {
+  235:     background-color: #1E1A34; /* Neon green background */
+  236      color: #000000; /* Black text */

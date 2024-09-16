@@ -3,11 +3,94 @@
     <head>
         <style>
             /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+            .ibm-plex-sans-thin {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-extralight {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-light {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thin-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-sans-extralight-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-sans-light-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-sans-regular-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-sans-medium-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-sans-semibold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-sans-bold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
 
 /* General body styles */
 body {
-    background-color: #8ACE00;
+    background-color: #1E1A34;
     font-family: "Arial Narrow", Arial, sans-serif;
     color: #000000;
     margin: 0;
@@ -17,7 +100,7 @@ body {
 header .left-text {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 2rem;
-    color: #FFFFFF;
+    color: #F4F5F0;
     text-align: left; /* Ensure left alignment */
     flex: 1; /* Allow it to take up full width of the left side */
 }
@@ -25,23 +108,23 @@ header .left-text {
 header .right-content {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 1.2rem;
-    color: #FFFFFF;
+    color: #F4F5F0;
 }
 
 /* Header */
 header {
-    background-color: #8ACE00;
+    background-color: #1E1A34;
     padding: 20px 0;
     text-align: center;
     font-family: "Arial Narrow", Arial, sans-serif;;
-    color: #FFFFFF;
+    color: #F4F5F0;
     font-size: 3rem;
     text-transform: uppercase;
 }
 
 /* Navigation */
 nav {
-    background-color: #8ACE00;
+    background-color: #1E1A34;
     padding: 15px;
     text-align: center;
 }
@@ -55,15 +138,15 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFFFFF;
-    background-color: #FF69B4;
+    color: #F4F5F0;
+    background-color: #C3513B;
     padding: 5px;
     border-radius: 3px;
 }
 
 /* Buttons */
 button {
-    background-color: #8ACE00;
+    background-color: #1E1A34;
     border: none;
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -75,7 +158,7 @@ button {
 
 button:hover {
     background-color: #39FF14;
-    color: #FFFFFF;
+    color: #F4F5F0;
 }
 
 /* Sections */
@@ -86,17 +169,17 @@ section {
 
 h1, h2, h3 {
     font-family: "Arial Narrow", Arial, sans-serif;
-    color: #FF69B4;
+    color: #C3513B;
 }
 
 p {
     font-family: "Arial Narrow", Arial, sans-serif;
-    color: #FFFFFF;
+    color: #F4F5F0;
 }
 
 /* Footer */
 footer {
-    background-color: #8ACE00;
+    background-color: #1E1A34;
     color: #39FF14;
     text-align: center;
     padding: 20px;
@@ -105,7 +188,7 @@ footer {
 
 /* Links inside the footer */
 footer a {
-    color: #FF69B4;
+    color: #C3513B;
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease;
@@ -119,7 +202,7 @@ footer a:hover {
 footer p:last-child {
     font-style: italic;
     margin-top: 20px;
-    color: #FF69B4;
+    color: #C3513B;
     font-size: 1.2rem;
 }
 
@@ -127,7 +210,7 @@ footer p:last-child {
 section.portfolio {
     background-color: #000000; /* Black background to match the Brat theme */
     padding: 50px;
-    color: #FFFFFF;
+    color: #F4F5F0;
     text-align: center;
     font-family: "Arial Narrow", Arial, sans-serif;
 }
@@ -136,7 +219,7 @@ section.portfolio {
 section.portfolio h2 {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 3rem;
-    color: #FFFFFF;
+    color: #F4F5F0;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
@@ -149,7 +232,7 @@ section.portfolio ul {
 
 /* List Items */
 section.portfolio ul li {
-    background-color: #8ACE00; /* Neon green background */
+    background-color: #1E1A34; /* Neon green background */
     color: #000000; /* Black text */
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 1.5rem;
@@ -163,8 +246,8 @@ section.portfolio ul li {
 
 /* Hover Effect */
 section.portfolio ul li:hover {
-    background-color: #FF69B4; /* Change to pink on hover */
-    color: #FFFFFF;
+    background-color: #C3513B; /* Change to pink on hover */
+    color: #F4F5F0;
     transform: scale(1.05); /* Slight zoom effect */
 }
 
@@ -209,7 +292,6 @@ section.portfolio ul li a {
     <p>contact me: shahmeersatti183@gmail.com | +92 320-8588005</p>
     <p>instagram</p>
     <a href="https://instagram.com/shahmeer4ASheadboy" target="_blank">instagram</a>
-    <p>shahmeer is brat.</p>
 </footer>
     </body>
 </html>
